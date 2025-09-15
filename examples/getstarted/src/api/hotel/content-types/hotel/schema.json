@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "singularName": "hotel",
+    "pluralName": "hotels",
+    "displayName": "Hotel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Customer_Name": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Contact_Number": {
+      "type": "biginteger"
+    },
+    "Token_Number": {
+      "type": "integer"
+    },
+    "Order_item": {
+      "type": "string"
+    }
+  }
+}
